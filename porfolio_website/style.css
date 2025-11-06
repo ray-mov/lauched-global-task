@@ -1,0 +1,269 @@
+
+ul{
+    list-style: none;
+}
+
+body{
+  margin: auto;
+  width: 80%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    color: #7acc00;
+    font-size: 40px;
+    font-weight: 900;
+     /* font-family: "Roboto Mono", monospace; */
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+nav > ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 24;
+}
+nav > ul >li{
+   padding-left: 10px;
+   padding-right: 10px;
+    font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+nav > ul >li:hover{
+    font-size: 18px;
+}
+
+nav > ul >li > span{
+    color: #7acc00;
+
+}
+
+li > a{
+    text-decoration: none;
+    color: #515456;
+    font-weight: 700;
+}
+
+
+/* main  */
+
+/* section head */
+.head{
+      font-family: "Plus Jakarta Sans", sans-serif;
+      line-height: 200%;
+}
+#head-p1{
+    color: #7acc00;
+    font-size: 20px;
+    font-weight: 600;
+}
+#head-p2{
+      color: #6c6f72;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#head-1{
+    color: #91969b;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+#head-2{
+    color: #6c6f72;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+#head-3{
+    color: #515456;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.head > button{
+margin-top: 20px;
+ background-color: white;
+ color: #7acc00;
+ border-color: #7acc00;
+ font-size: 28px;
+ border-radius: 5px;
+ padding: 12px;
+  font-family: "Roboto Mono", monospace;
+}
+.head > button:hover{
+    scale: 1.05;
+}
+
+.section-title{
+    display: flex;
+    align-items: center;
+    font-family: "Roboto Mono", monospace;
+}
+
+.section-title > p{
+     font-size: 30px;
+    padding-right: 20px;
+    color: #7acc00;
+}
+
+
+
+
+/* About Me section */
+
+.about-me{
+  margin-top: 10vh;
+}
+
+.about-me-head{
+    display: flex;
+    align-items: baseline;
+    font-family: "Roboto Mono", monospace;
+}
+.about-me-head > p{
+    font-size: 30px;
+    padding-right: 20px;
+   
+}
+
+.about-me-head > h1{
+    font-size: 40px;
+    padding-right: 20px;
+}
+
+.hr{
+    width: 300px;
+    height: 2px;
+    background-color: rgb(181, 181, 181);
+}
+
+
+
+.about-me-container{
+    display:flex;
+    align-items:flex-start
+
+}
+
+
+.about-me-container > div > p{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #6c6f72;
+    gap: 20;
+    line-height: 170%;
+}
+.about-me-container > div > ul{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #6c6f72;
+    list-style: circle;
+    line-height: 170%;
+}
+
+.about-me-container > div> img{
+    height: 500px;
+    
+}
+
+/* contact me section */
+
+.contact-me{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.contact-me-head{
+     display: flex;
+    align-items: center;
+    font-family: "Roboto Mono", monospace;
+    color: #7acc00;
+    font-size: 40px
+}
+.contact-me > h1{
+    font-family: "Roboto Mono", monospace;
+    color:#6c6f72;
+    font-size: 45px;
+}
+
+.contact-me > p{
+    font-family: "Roboto Mono", monospace;
+    font-size: 16px;
+    color: #91969b;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto Mono", monospace;
+    width: 50%;
+    
+}
+form > div {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+   font-size: 24px;
+}
+
+input{
+    width: 50%;
+    border-radius: 5px;
+    font-family: "Roboto Mono", monospace;
+}
+
+#contact-from-button{
+      font-family: "Roboto Mono", monospace;
+      background-color: #f9fff1;
+      padding: 8px;
+      margin-top: 30px;
+      font-size: 24px;
+      border-radius: 5px;
+      max-width: 300px;
+}
+
+.project-card{
+    padding: 20px; 
+    max-width: 500px;
+    border-radius: 25px;
+    border: 2px solid rgb(182, 182, 182);
+     font-family: "Roboto Mono", monospace;
+}
+.project-card img{
+    object-fit: cover;
+
+}
+.project-card h1{
+    font-weight: 800;   
+}
+
+.project-card p{
+    font-weight: 800;  
+    font-size: 18px; 
+}
+
+.project-card a{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.project-card  p a{
+    text-decoration: none;
+   color: #7acc00;;
+}

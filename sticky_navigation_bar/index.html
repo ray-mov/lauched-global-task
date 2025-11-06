@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Navigation Example</title>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-thin-straight/css/uicons-thin-straight.css'>
+
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4; 
+            color: #191314; 
+            scroll-behavior: smooth; 
+        }
+
+        
+        nav {
+            padding: 15px 40px;   
+            position: sticky; 
+            top: 0; 
+            z-index: 1000;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ffffff;
+        }
+
+        nav a {    
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 20px;
+            font-size: 1.1em;   
+            color: #191314;
+        }
+
+        .about-us, .features, .mission{
+            max-width: 90%;
+            margin: auto;
+           
+        }
+
+        .features, .mission{
+           
+            text-align: center;
+        }
+
+        .feature-card{
+            background-color: #ffffff;
+            border-radius: 40px;
+            text-align: start;
+            padding: 20px;
+        }
+
+          .feature-card a{
+           text-decoration: none;
+           background-color: #ecf95a;
+           color: #191314;
+           font-weight: 700;
+           padding: 10px;
+           border-radius: 40px;
+           
+
+        }
+
+        .text-content{
+            padding-top: 50px;
+            
+        }
+
+         .text-content div{
+            padding: 5px 0;
+            
+        }
+
+        .description-group{
+            line-height: 50%;
+
+        }
+
+        .title-group{
+            line-height: 90%;
+        }
+
+      
+
+      
+    </style>
+</head>
+<body>
+
+    <nav>
+
+        <div style="display: flex; gap: 20px; align-items: center;">
+            <h1 style="background-color: #191314; color: #ecf95a; font-size: 900; padding: 3px 10px;">Z</h1>
+            <h1>XenCrypto</h1>
+        </div>
+        <div >
+            <a href="#about-us">About Us </a>
+            <a href="#features">Features</a>
+            <a href="#mission">Out Mission</a>
+        </div>
+        <div>
+            <button style="font-size: 20px; padding: 10px 20px; background-color: #191314; color: #ffffff;">Download App</button>
+        </div>
+    </div>
+    </nav>
+
+    <main>
+
+        <section id="about-us" class="about-us">
+            <h2># About US</h2>
+             <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px;">
+                <div style="background-color: #ffffff; padding: 20px 40px; border-radius: 20px 20px 160px 20px;">
+                    <div style="font-size: 30px; line-height: 120%;">    
+                        <h1>Secure &</h1>
+                        <h1>Easy-to-Use</h1>
+                        <h1>Crypto Wallet</h1>
+                    </div>
+                    <div  style="font-size: 16px; line-height: 120%; padding-top: 20px; line-height: 90%; letter-spacing: 1.2px;">
+                        <p>Store, Send & Receive</p>
+                        <p>Crytyocurrencies with confidence</p>
+                    </div>
+                    <button style="margin-top: 24px; font-size: 28px; padding: 5px 10px; background-color: #ecf95a;">Get Started</button>
+                    <div style="margin-top: 60px; ">
+                        <button style="margin-right: 40px; margin-top: 24px; font-size: 28px; padding: 5px 10px; background-color: #ffffff">App Store</button>
+                        <button style="margin-top: 24px; font-size: 28px; padding: 5px 10px; background-color: #ffffff">Google Play</button>
+                    </div>
+                </div >
+                <div style="background-color: #ecf95a;  border-radius: 20px 20px 20px 160px ;">
+                    <img src="./images/phone-app.webp" alt="phone app" style="width: 100%; border-radius: 20px 20px 20px 160px ; object-fit: cover;">
+                    <div style="text-align: end; line-height: 70%; padding-right: 20px; font-weight: 700;">
+                        <p>CREATE YOUR WALLET</p>
+                        <p>WITH EASE</p>
+                    </div>
+                    
+                </div>
+             </div>
+        </section>
+
+        <section id="#features" class="features" style="margin-top: 50px;">
+            <h2 style="border: 2px; text-align: start;"># Features</h2>
+            <div style="line-height: 90%; font-size: 24px;">
+                <h1>We offer a safe, user-friendly,</h1>
+                <h1>and efficent Crypto App</h1>
+            </div>
+            <div style="line-height: 90%; margin-top: 40px;">
+                <p>We envision a decentralized future where individauls</p>
+                <p>have complete control over thier financial assets</p>
+            </div>
+
+        <div class="features-container" style="display: grid; grid-template-columns: repeat(4,1fr); gap: 20px; margin-top: 60px; margin-bottom: 60px;">
+
+        <div class="feature-card">
+            <div class="feature-card-icon">
+                <img src="./icons/crypto-wallet.png" alt="wallet">
+            </div>
+            <div class="text-content">
+                <div class="title-group">
+                    <h1>Non-Custodial</h1>
+                    <h1>Wallet</h1>
+                </div>
+                <div class="description-group">
+                    <p>Full control over your</p>
+                    <p>private keys</p>
+                </div>
+            </div>
+            <a href="#" class="learn-more-button">
+                Learn more <span class="arrow-icon">↗</span>
+            </a>
+        </div>
+
+        <div class="feature-card" style="background-color: #ecf95a;">
+            <div class="icon">
+                 <img src="./icons/exchange-cryptocurrency.png" alt="Exchange Icon" >
+            </div>
+            <div class="text-content">
+                <div class="title-group">
+                    <h1>Built-in</h1>
+                    <h1>Exchange</h1>
+                </div>
+                <div class="description-group">
+                    <p>Swap cryptocurrencies</p>
+                    <p>directly within the app</p>
+                </div>
+            </div>
+            <a href="#" class="learn-more-button" style="background-color: #191314; color: #ffffff;">
+                Learn more <span class="arrow-icon">↗</span>
+            </a>
+        </div>
+
+        <div class="feature-card">
+            <div class="icon">
+                <img src="./icons/payment-authentication.png" alt="Security Icon">
+            </div>
+            <div class="text-content">
+                <div class="title-group">
+                    <h1>Biometric</h1>
+                    <h1>Security</h1>
+                </div>
+                <div class="description-group">
+                    <p>Face ID & authentication</p>
+                    <p>for extra protection</p>
+                </div>
+            </div>
+            <a href="#" class="learn-more-button">
+                Learn more <span class="arrow-icon">↗</span>
+            </a>
+        </div>
+
+        <div class="feature-card">
+            <div class="icon">
+                <img src="./icons/qr.png" alt="QR Code Icon">
+            </div>
+            <div class="text-content">
+                <div class="title-group">
+                    <h1>QR Code</h1>
+                    <h1>Payments</h1>
+                </div>
+                <div class="description-group">
+                    <p>Send and receive crypto</p>
+                    <p>effortlessly</p>
+                </div>
+            </div>
+            <a href="#" class="learn-more-button">
+                Learn more <span class="arrow-icon">↗</span>
+            </a>
+        </div>
+
+    </div>
+            
+        </section>
+
+        <section class="mission" id="mission" style="margin-bottom: 100px;">
+            <h2 style="border: 2px; text-align: start;"># Our Mission
+            </h2>
+            <div style="line-height: 90%; font-size: 24px;">
+                <h1>We provide a secure, intuitive,</h1>
+                <h1>and efficent platform</h1>
+            </div>
+            <div style="line-height: 90%; margin-top: 40px;">
+                <p>We believe in a decentralized future where everyone</p>
+                <p>has full control over their financial assets.</p>
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+
+</body>
+</html>
