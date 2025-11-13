@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+    <style>
+       
+
+
+
+
+
+        
+    
+      
+
+        
+        
+        .card-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.25rem;
+        }
+        .card-icon svg {
+            width: 28px;
+            height: 28px;
+            color: #FFFFFF;
+        }
+        
+        /* Icon Background Colors */
+        .icon-email    { background-color: #FEE2E2; }
+        .icon-email svg { color: #EF4444; }
+        
+        .icon-paid     { background-color: #DBEAFE; }
+        .icon-paid svg { color: #3B82F6; }
+        
+        .icon-seo      { background-color: #FEF3C7; }
+        .icon-seo svg  { color: #F59E0B; }
+        
+        .icon-funnel   { background-color: #EDE9FE; }
+        .icon-funnel svg { color: #8B5CF6; }
+        
+        .icon-content  { background-color: #FFE4E6; }
+        .icon-content svg { color: #F472B6; }
+        
+        .icon-social   { background-color: #D1FAE5; }
+        .icon-social svg { color: #10B981; }
+
+
+        .service-card h2 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #111827;
+            margin-bottom: 0.5rem;
+        }
+
+        .service-card p {
+            color: #6B7281; /* Gray text */
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+        }
+
+        .service-checklist {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .service-checklist li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.75rem;
+            color: #4B5563;
+            font-weight: 500;
+        }
+        
+        .check-icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 0.5rem;
+        }
+        
+        /* Checkmark Icon Colors */
+        .check-email { color: #EF4444; }
+        .check-paid { color: #3B82F6; }
+        .check-seo { color: #F59E0B; }
+        .check-funnel { color: #8B5CF6; }
+        .check-content { color: #F472B6; }
+        .check-social { color: #10B981; }
+
+        /* CTA Button */
+        .cta-button {
+            display: block;
+            width: -moz-fit-content; /* Firefox support */
+            width: fit-content;
+            margin: 3rem auto 0 auto;
+            background-color: #EF4444;
+            color: #FFFFFF;
+            padding: 0.75rem 1.75rem;
+            border-radius: 9999px; /* Pill shape */
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #DC2626; /* Darker red */
+        }
+
+
+
+       
+
+    </style>
+</head>
+<body>
+    
+
+    <div class="container">
+        
+        <header class="services-header">
+            <p>OUR SERVICES</p>
+            <h1>High-impact marketing services</h1>
+        </header>
+
+        <div class="services-layout">
+            
+            <!-- Card 1 Email Marketing -->
+            <section class="service-card">
+                <div class="card-icon icon-email">
+                   
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" /></svg>
+                </div>
+                <h2>Email Marketing</h2>
+                <p>Lorem ipsum consectetur amet sit ome comeener ilrems dolce issilmolil.</p>
+                <ul class="service-checklist">
+                    <li>
+                        <svg class="check-icon check-email"><use href="#icon-check"></use></svg>
+                        Email Newsletter Setup
+                    </li>
+                    <li>
+                        <svg class="check-icon check-email"><use href="#icon-check"></use></svg>
+                        Email Sequences
+                    </li>
+                    <li>
+                        <svg class="check-icon check-email"><use href="#icon-check"></use></svg>
+                        Email Monetization
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Card 2: Paid Advertising -->
+            <section class="service-card">
+                <div class="card-icon icon-paid">
+                    <!-- Icon: Bar Chart -->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625C9.75 8.004 10.254 7.5 10.875 7.5h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25A1.125 1.125 0 019.75 19.875V8.625zM16.5 4.125C16.5 3.504 17.004 3 17.625 3h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25A1.125 1.125 0 0116.5 19.875V4.125z" /></svg>
+                </div>
+                <h2>Paid Advertising</h2>
+                <p>Lorem ipsum consectetur amet sit ome comeener ilrems dolce issilmolil.</p>
+                <ul class="service-checklist">
+                    <li>
+                        <svg class="check-icon check-paid"><use href="#icon-check"></use></svg>
+                        Google Ads
+                    </li>
+                    <li>
+                        <svg class="check-icon check-paid"><use href="#icon-check"></use></svg>
+                        Facebook Ads
+                    </li>
+                    <li>
+                        <svg class="check-icon check-paid"><use href="#icon-check"></use></svg>
+                        LinkedIn & Twitter Ads
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Card 3: SEO -->
+            <section class="service-card">
+                <div class="card-icon icon-seo">
+                    <!-- Icon: Magnifying Glass -->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" /></svg>
+                </div>
+                <h2>SEO</h2>
+                <p>Lorem ipsum consectetur amet sit ome comeener ilrems dolce issilmolil.</p>
+                <ul class="service-checklist">
+                    <li>
+                        <svg class="check-icon check-seo"><use href="#icon-check"></use></svg>
+                        SEO Audits
+                    </li>
+                    <li>
+                        <svg class="check-icon check-seo"><use href="#icon-check"></use></svg>
+                        On-Page SEO
+                    </li>
+                    <li>
+                        <svg class="check-icon check-seo"><use href="#icon-check"></use></svg>
+                        Off-Page SEO
+                    </li>
+                </ul>
+            </section>
+            
+            <!-- Card 4: Funnel Optimization -->
+            <section class="service-card">
+                <div class="card-icon icon-funnel">
+                    <!-- Icon: Funnel -->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3 4h18L14.25 12v5.25l-4.5 3V12L3 4z" /></svg>
+                </div>
+                <h2>Funnel Optimization</h2>
+                <p>Lorem ipsum consectetur amet sit ome comeener ilrems dolce issilmolil.</p>
+                <ul class="service-checklist">
+                    <li>
+                        <svg class="check-icon check-funnel"><use href="#icon-check"></use></svg>
+                        Analytics Analisis
+                    </li>
+                    <li>
+                        <svg class="check-icon check-funnel"><use href="#icon-check"></use></svg>
+                        A/B Testing
+                    </li>
+                    <li>
+                        <svg class="check-icon check-funnel"><use href="#icon-check"></use></svg>
+                        Conversion Optimization
+                    </li>
+                </ul>
+            </section>
+            
+            <!-- Card 5: Content Marketing -->
+            <section class="service-card">
+                <div class="card-icon icon-content">
+                    <!-- Icon: Play Button -->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.972l-11.54 6.347a1.125 1.125 0 01-1.667-.986V5.653z" /></svg>
+                </div>
+                <h2>Content Marketing</h2>
+                <p>Lorem ipsum consectetur amet sit ome comeener ilrems dolce issilmolil.</p>
+                <ul class="service-checklist">
+                    <li>
+                        <svg class="check-icon check-content"><use href="#icon-check"></use></svg>
+                        Articles & Written Content
+                    </li>
+                    <li>
+                        <svg class="check-icon check-content"><use href="#icon-check"></use></svg>
+                        Video Content
+                    </li>
+                    <li>
+                        <svg class="check-icon check-content"><use href="#icon-check"></use></svg>
+                        Infographics
+                    </li>
+                </ul>
+            </section>
+            
+            <!-- Card 6: Social Media Marketing -->
+            <section class="service-card">
+                <div class="card-icon icon-social">
+                    <!-- Icon: Thumbs Up -->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6.633 10.5c.806 0 1.533-.422 2.03-1.12L10.5 8.03c.107-.158.226-.306.356-.444.64-.64 1.48-.986 2.396-.986h.44c.42 0 .83.166 1.13.466l1.98 1.98c.29.29.446.69.446 1.1V14.25c0 .62-.506 1.125-1.125 1.125h-3.375c-.62 0-1.125-.506-1.125-1.125V14.25c0-.205.055-.4.16-.575L8.1 9.925c-.105-.175-.16-.37-.16-.575v-.75c0-.414.336-.75.75-.75h.375c.19 0 .37.07.5.2l.52.52c.13.13.27.24.42.33.15.09.32.13.49.13H12m-6.633 0c.806 0 1.533-.422 2.03-1.12L6.2 8.03c.107-.158.226-.306.356-.444.64-.64 1.48-.986 2.396-.986h.44c.42 0 .83.166 1.13.466l1.98 1.98c.29.29.446.69.446 1.1V14.25c0 .62-.506 1.125-1.125 1.125h-3.375c-.62 0-1.125-.506-1.125-1.125V14.25c0-.205.055-.4.16-.575L3.6 9.925c-.105-.175-.16-.37-.16-.575v-.75c0-.414.336-.75.75-.75h.375c.19 0 .37.07.5.2l.52.52c.13.13.27.24.42.33.15.09.32.13.49.13h.44c.42 0 .83-.166 1.13-.466l1.98-1.98c.29-.29.446-.69.446 1.1V14.25c0 .62-.506 1.125-1.125 1.125H5.25c-.62 0-1.125-.506-1.125-1.125V14.25c0-.205.055-.4.16-.575L3.6 9.925c-.105-.175-.16-.37-.16-.575v-.75c0-.414.336-.75.75-.75H3m3.633 0h.44Z" /></svg>
+                </div>
+                <h2>Social Media Marketing</h2>
+                <p>Lorem ipsum consectetur amet sit ome comeener ilrems dolce issilmolil.</p>
+                <ul class="service-checklist">
+                    <li>
+                        <svg class="check-icon check-social"><use href="#icon-check"></use></svg>
+                        Content Creation
+                    </li>
+                    <li>
+                        <svg class="check-icon check-social"><use href="#icon-check"></use></svg>
+                        Community Management
+                    </li>
+                    <li>
+                        <svg class="check-icon check-social"><use href="#icon-check"></use></svg>
+                        Social Media Growth
+                    </li>
+                </ul>
+            </section>
+
+        </div>
+        
+        <a href="#" class="cta-button">
+            Get In Touch &rarr;
+        </a>
+
+    </div>
+
+</body>
+</html>

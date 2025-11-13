@@ -1,0 +1,117 @@
+body {
+
+    background-color: #0f172a;
+    color: #f8fafc;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.faq-container {
+    max-width: 896px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.faq-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.faq-header h1 {
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #fcd34d;
+    margin-bottom: 0.5rem;
+}
+
+.faq-header p {
+    color: #9ca3af;
+    font-size: 1.125rem;
+}
+
+.faq-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.faq-list li {
+    margin-bottom: 1rem;
+}
+
+.faq-item {
+    background-color: #1f2937;
+    border-radius: 0.75rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+}
+
+summary {
+    cursor: pointer;
+    padding: 1.25rem 1.5rem;
+    list-style: none;
+    position: relative;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #ffffff;
+    background-color: #334155;
+    transition: background-color 0.3s ease;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+}
+
+summary:hover {
+    background-color: #475569;
+}
+
+details[open] summary {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+details[open] summary:after {
+    content: '-';
+    transform: rotate(180deg);
+}
+
+details summary:after {
+    content: '+';
+    position: absolute;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 1;
+    transition: transform 0.3s ease;
+}
+
+.answer-content {
+    padding: 1.5rem;
+    background-color: #111827;
+    border-top: 1px solid #475569;
+}
+
+.answer-content p {
+    color: #d1d5db;
+    line-height: 1.625;
+}
+
+.faq-footer {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.faq-footer p {
+    color: #9ca3af;
+}
+
+.faq-footer a {
+    color: #fcd34d;
+    font-weight: 500;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.faq-footer a:hover {
+    color: #fbbf24;
+}
