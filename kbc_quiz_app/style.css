@@ -1,0 +1,30 @@
+body{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+#startBtn{
+    padding: 5px 20px;
+    background-color: #ffffff;
+    font-size: 20px;
+}
+
+.hide {
+  display: none;
+}
+
+#options button{
+    background-color: #ffffff;
+    padding: 1.5rem 2rem;
+    font-size: x-large;
+    border-radius: 50px;
+    display: block;
+    margin: 30px auto;
+    min-width: 500px;
+    cursor: pointer;
+}
+
+#scoreBox{
+    font-size: 4rem;
+}
